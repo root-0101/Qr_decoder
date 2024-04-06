@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #131B23;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #b64d4b;
+}
+
+#dropArea {
+    border: 3px dashed #ffff;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #ACACBD;
+    cursor: pointer;
+}
+
+#result {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #ACACBD;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#copyButton {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+}
+
+#copiedText {
+    margin-top: 5px;
+    color: green;
+}
+
+#fileInput {
+    display: none;
+}
+
+#uploadButton {
+    margin-top: 20px;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
