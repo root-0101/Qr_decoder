@@ -3,5 +3,5 @@
 <h3>It's a simple qr decoder in javascript,
 where you can upload images and it shows what the qr contains..</h3>
 
-<img src="/workspaces/Qr_decoder/qr_preview.png">
+![alt text](https://github.com/root-0101/Qr_decoder/blob/main/qr_preview.png?raw=true)
 
